@@ -1,0 +1,20 @@
+[project]
+name = "algoverse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.3.1",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "torch>=2.7.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.53.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.2",
+    "pre-commit>=3.0.0",
+]

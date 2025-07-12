@@ -1,8 +1,8 @@
-# Algoverse Research Repository
+# Titans-MaAS
 
-The project is structured to support our systematic experimentation.
+Experiments go in `/experiments`. An experiment represents a set of changes to the research process (e.g. architectures, anything we want to explore meanwhile) and the sequence of experiments over time represents a complete record of the development process. Each experiment should be self-contained and reproducible. 
 
-Experiments go in `/experiments`. An experiment represents a set of changes to the research process (e.g. architectures, anything we want to explore meanwhile) and the sequence of experiments over time represents a complete record of the development process. Each experiment should be self-contained and reproducible.
+You can run experiments from the root of the project, e.g. `python -m experiments.mv_prototype`
 
 Main files go in `/main` [to be replaced with our actual research project name, after we've finalized our proposal]. Please keep this clean as we will primarily use this as the frontface of our research. This directory contains the core implementation and stable code that other experiments can build upon.
 
